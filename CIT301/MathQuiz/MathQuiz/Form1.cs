@@ -110,11 +110,6 @@ namespace MathQuiz
                 timeLeft--;
                 timeLabel.Text = timeLeft + " seconds";
             }
-            else if (timeLeft <= 5)
-            {
-                timeLabel.BackColor = Color.Red;
-                timeLeft--;
-            }
             else
             {
                 timer1.Stop();
